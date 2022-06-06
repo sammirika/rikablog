@@ -5,6 +5,9 @@ spring:
     url: jdbc:mysql://localhost:3306/eblog?useUnicode=true&useSSL=false&characterEncoding=utf8&serverTimezone=UTC
     username: root
     password: Kms12#$%
+  redis:
+    host: localhost
+    port: 6379
   freemarker:
     cache: false #是否启用模板缓存
     enabled: true #是否启用freemarker
